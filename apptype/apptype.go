@@ -21,3 +21,7 @@ type State struct {
 	SwatchSelected int
 	FilePath       string
 }
+
+func (state *State) SetFilePath(path string) {
+	state.FilePath = path
+}
